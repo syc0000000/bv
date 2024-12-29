@@ -6,7 +6,7 @@ jobs:
   build-release:
     name: Build Release Apk
     runs-on: macos-latest
-    if: github.repository == 'fifthday/bv'
+    if: github.repository == 'syc0000000/bv'
 
     steps:
       - name: Checkout
